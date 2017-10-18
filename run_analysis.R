@@ -84,7 +84,7 @@ data2[data2$subject==1 | data2$subject==2,c(1:5)]
 # First choice
 data.table::fwrite(data2,file="./UCI HAR Dataset/tidydata_eric.txt",append=FALSE,quote=FALSE,sep=";")
 # Choice of MOOC
-write.table(data2, file = "./UCI HAR Dataset/tidydata.txt",row.names=FALSE, col.names=TRUE, sep=";")
+write.table(data2, file = "./UCI HAR Dataset/tidydata.txt",row.names=FALSE, col.names=TRUE, sep=";",append=FALSE)
 # Size of file exported in octets
 file.size("./UCI HAR Dataset/tidydata.txt")
 
