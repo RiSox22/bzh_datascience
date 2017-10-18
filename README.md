@@ -18,7 +18,7 @@ About the raw data
 About the script and the tidy dataset
 -------------------------------------
 
-* I created a script called `run_analysis.R` which download, unzip and load raw data. After the script will fitness (labels) the test and training set then merge the test and training sets together. After merging testing and training, only columns that have to do with mean and standard deviation are kept. Lastly, the script will create a tidy data set containing the means of all the columns per subject and per activity. This tidy dataset will be written to a delimited file called tidydata.txt, which can also be found in this repository.
+* I created a script called `run_analysis.R` which download, unzip and load raw data. After the script will fitness (labels) the test and training set then merge the test and training sets together. After merging testing and training, only columns that have to do with mean and standard deviation are kept. Lastly, the script will create a tidy data set containing the means of all the columns per subject and per activity. This tidy dataset will be written to a delimited file called `tidydata.txt`, which can also be found in this repository.
 
 
 About the Code Book
